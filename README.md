@@ -1,4 +1,2 @@
-# COMPLETE-PORTFOLIO-WEBSITE
-COMPLETE PORTFOLIO WEBSITE &lt; HTML > { CSS } ( JavaScript )
+#made by immaculate nayiga 
 
-The fruit of patience is sweet. Let's [check the webpage.](https://happy-janet.github.io/COMPLETE-PORTFOLIO-WEBSITE/)
