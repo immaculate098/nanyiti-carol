@@ -76,21 +76,21 @@ $(document).ready(() => {
         grabCursor: true,
         centeredSlides: true,
         slidesPerView: 1,
-        // effect: "flip",
-        // cubeEffect: {
-        //     shadow: true,
-        //     slideShadows: true,
-        //     shadowOffset: 20,
-        //     shadowScale: 0.94,
-        // },
-        // effect: "coverflow",
-        // coverflowEffect: {
-        //     rotate: 30,
-        //     stretch: 0,
-        //     depth: 100,
-        //     modifier: 1,
-        //     slideShadows: true,
-        // },
+        effect: "flip",
+        cubeEffect: {
+            shadow: true,
+            slideShadows: true,
+            shadowOffset: 20,
+            shadowScale: 0.94,
+        },
+        effect: "coverflow",
+        coverflowEffect: {
+            rotate: 30,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+        },
 
         effect: "cube",
         cubeEffect: {

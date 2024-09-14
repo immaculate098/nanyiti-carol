@@ -28,6 +28,23 @@ for (let i = 0; i < foot_link.length; i++) {
     });
 }
 
+
+
+        function showSection(sectionId) {
+            // Hide all sections
+            document.querySelectorAll('.section').forEach(function(section) {
+                section.style.display = 'none';
+            });
+            // Show the selected section
+            document.getElementById(sectionId).style.display = 'block';
+
+            // If you need to trigger animations specific to each section
+            if (sectionId === 'contact') {
+                animate5.play();
+            }
+        }
+
+
 // let bg_wrapper = document.querySelector(".bg_wrapper");
 
 // for (let i = 0; i < 6; i++) {

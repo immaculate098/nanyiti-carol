@@ -125,3 +125,20 @@ function submitEmail() {
 document.querySelector("form").addEventListener("submit", (e) => {
     e.preventDefault();
 });
+
+
+
+function showSection(sectionId) {
+    // Hide all sections
+    document.querySelectorAll('.section').forEach(function(section) {
+        section.style.display = 'none';
+    });
+    // Show the selected section
+    document.getElementById(sectionId).style.display = 'block';
+
+    // If you need to trigger animations specific to each section
+    if (sectionId === 'contact') {
+        animate5.play();
+    }
+}
+
